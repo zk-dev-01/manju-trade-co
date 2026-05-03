@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manju Trading Co.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="main.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER PART -->
+    <header>
+
+
+        <!-- MAKING THE NAV BAR -->
+        <nav class="navbar flex between wrapper">
+            <a href="#" class="logo">Manju Co.</a>
+
+            <!-- DESKTOP MENU -->
+            <ul class="navlist flex gap-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Items</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#join">Guild</a></li>
+                <li><a href="#contact">Subscribe</a></li>
+            </ul>
+
+            <div class="desktop-action flex gap-2">
+
+                <!-- IMPORTING ICONS FROM FONT AWESOME -->
+
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+
+                <a href="#" class="btn">
+                    Sign in
+                    &nbsp;
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </a>
+
+                <a href="#" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- MOBILE MENU -->
+            <ul class="mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#" class="btn">
+                        Sign in
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- SECTIONS PART -->
+    <main>
+        <!-- FIRST SECTION -->
+        <section>
+            <div class="hero-section flex wrapper gap-4">
+                <div class="content slide-in-left">
+                    <h1>
+                        Trade Rare Goods Across
+                        <span>The Kingdom</span>
+                    </h1>
+                    <p class="para">
+                        Discover unique items from distant lands<br>
+                        and build your merchant empire.
+                    </p>
+                    <div class="flex gap-2">
+                        <a href="#" class="btn"> Start Trading </a>
+                        <a href="https://x.com/CRKingdomEN" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cookierunkingdom/" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/CRKingdomEN/" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@CookieRunKingdom" class="social-icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="image-container slide-in-right">
+                    <img src="images/manju-cookie-title.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECOND SECTION -->
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Trading System</h5>
+                    <h2>How Trading Works</h2>
+                </div>
+
+                <div class="flex text-center mt-4 gap-4">
+                    <div class="service-card">
+                        <div class="images-container">
+                            <i class="fa-solid fa-box-open service-icon"></i>
+                        </div>
+                        <h3>Browse Goods</h3>
+                        <p>Explore rare items and goods collected from across the kingdom.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="images-container">
+                            <i class="fa-solid fa-handshake service-icon"></i>
+                        </div>
+                        <h3>Make a Trade</h3>
+                        <p>Select your items and trade quickly with trusted merchants.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="images-container">
+                            <i class="fa-solid fa-coins service-icon"></i>
+                        </div>
+                        <h3>Earn Rewards</h3>
+                        <p>Grow your collection and unlock valuable rewards over time.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- THIRD SECTION -->
+        <section id="menu">
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Our Items</h5>
+                    <h2>The Most Popular</h2>
+                </div>
+
+                <div class="card-list text-center flex mt-4 gap-2">
+                </div>
+                <!-- CART TAB -->
+                 <div class="cart-tab">
+
+                    <h3>Your Cart</h3>
+
+                    <div class="cart-list">
+
+                    </div>
+
+                    <div class="total-container">
+                        <h4>Total:</h4>
+                        <div class="cart-total">$0.00</div>
+                    </div>
+                    <div class="btn-container flex gap-2"> 
+                        <a href="#" class="btn close-btn">Close</a>
+                        <a href="#" class="btn">Check out</a>
+                    </div>
+
+                 </div>
+            </div>
+        </section>
+
+        <!-- FOURTH SECTION -->
+        <section id="reviews">
+            <div class="wrapper p-top review-section-wrapper">
+
+                <div class="image-container slide-in-left">
+                    <img src="images/manju-standing.png">
+                </div>
+
+                <div class="content slide-in-right">
+                    <h5>Merchant Feedback</h5>
+                    <h2>What Cookies Are Saying</h2>
+
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper mt-4">
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile1.jpeg">
+                                        </div>
+
+                                        <div class="user-info">
+                                            <h4>Black Sapphire Cookie</h4>
+                                            <div class="stars mt-one-half">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                        Efficient trades and rare goods. The quality here is... acceptable.  
+                                        I may return if the inventory continues to impress.
+                                        </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile2.jpeg">
+                                        </div>
+
+                                        <div class="user-info">
+                                            <h4>Golden Cheese Cookie</h4>
+                                            <div class="stars mt-one-half">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                        Magnificent! Simply magnificent! These goods are worthy of royalty!  
+                                        I demand more! Double the quantity! No, triple!
+                                        </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile3.jpeg">
+                                        </div>
+
+                                        <div class="user-info">
+                                            <h4>Jagae Cookie</h4>
+                                            <div class="stars mt-one-half">
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                    Terrible service. Suspicious goods. I would never trust this place.  
+                                    …unless I was spying on someone.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex between">
+                                <a href="#" class="arrow" id="prev">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </a>
+                                <a href="#" class="arrow" id="next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION FIVE -->
+        <section id="join">
+            <div class="wrapper p-top">
+                <div class="app-container flex between">
+                    <div class="image-container">
+                        <img src="images/ship.png">
+                    </div>
+
+                    <div class="content">
+                        <h5>Merchant Voyage</h5>
+                        <h2>Set Sail Across <br> The Kingdom</h2>
+                        <p class="para">
+                        Join Manju Cookie on a trading journey across distant lands,
+                        collect rare goods, and grow your merchant empire.
+                        </p>
+                        <a href="#" class="btn">Start Journey</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Guild Updates</h5>
+                    <h2>Join the Merchant Guild</h2>
+                    <p class="para m-auto">
+                    Sign up to receive rare trade offers, new goods, and exclusive merchant updates.
+                    </p>
+
+                    <label class="input-container flex">
+                        
+                        <input type="email" name="email" id="email" 
+                        
+                        placeholder="Enter your email adress" autocomplete="off">
+                        <a href="#" class="btn">Subscribe</a>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTERS PART -->
+    <footer>
+        <div class="footer-container">
+            <div class="flex wrapper footer-content-gap">
+                <div class="footer-wrapper">
+                    <a href="#" class="logo">Manju Trade Co.</a>
+
+                    <p class="mt-one-five-half">
+                    Travel the seas and trade rare goods across the kingdom.
+                    </p>
+                    <div class="flex gap-2 mt-one-half">
+                        <a href="https://x.com/CRKingdomEN" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cookierunkingdom/" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/CRKingdomEN/" class="social-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@CookieRunKingdom" class="social-icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-wrapper">
+                    <li><h4>Trade Goods</h4></li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Rare Items</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Popular Trades</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">All Goodss</a>
+                    </li>
+                </ul>
+                <ul class="footer-wrapper">
+                    <li><h4>Merchant Guild</h4></li>
+
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Why Trade With Us</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Become a Merchant</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Our Story</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Guild FAQ</a>
+                    </li>
+                </ul>
+                <ul class="footer-wrapper">
+                    <li><h4>Support</h4></li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Trader Account</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Send Feedback</a>
+                    </li>
+                    <li class="mt-one-five-half">
+                        <a href="#" class="footer-link">Contact Guild</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Tropical Fruit Basket",
+        "price": "$9.67",
+        "image": "images/tropical_fruit_basket.png"
+    },
+    {
+        "id": 2,
+        "name": "Melty Froyo",
+        "price": "$10.99",
+        "image": "images/melty-froyo.png"
+    },
+    {
+        "id": 3,
+        "name": "Pastry Fish",
+        "price": "$13.45",
+        "image": "images/pastry-fish.png"
+    },
+    {
+        "id": 4,
+        "name": "Candy Gem Ring",
+        "price": "$7.50",
+        "image": "images/gem-ring.png"
+    },
+    {
+        "id": 5,
+        "name": "Watermelon Fish",
+        "price": "$6.99",
+        "image": "images/watermelon-fish.png"
+    },
+    {
+        "id": 6,
+        "name": "Jelly Bean Meal",
+        "price": "$16.45",
+        "image": "images/jellybean-meal.png"
+    },
+    {
+        "id": 7,
+        "name": "Coconut Crab",
+        "price": "$7.65",
+        "image": "images/coconut-crab.png"
+    },
+    {
+        "id": 8,
+        "name": "Packaged Milk",
+        "price": "$9.31",
+        "image": "images/packaged-milk.png"
+    }
+]
